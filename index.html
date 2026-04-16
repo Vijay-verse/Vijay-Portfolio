@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay Andhale | Portfolio</title>
+  <meta
+    name="description"
+    content="Vijay Andhale - B.Tech CSE Student and aspiring web developer portfolio."
+  />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8x7N1pQz8M9QevSCWr3W6AqWm5f6Q6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading screen -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Loading Portfolio...</p>
+  </div>
+
+  <!-- Cursor glow -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Animated background particles -->
+  <div class="particles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Vijay<span>.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#social">Social</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="section hero" id="home">
+      <div class="container hero-content glass reveal">
+        <p class="hero-tag">Hello, I am</p>
+        <h1>Vijay Andhale</h1>
+        <h2>B.Tech CSE Student | Aspiring Web Developer</h2>
+        <p class="hero-subtitle">
+          "Building clean, modern, and user-friendly web experiences."
+        </p>
+        <p class="typing-line">
+          <span id="typingText"></span><span class="cursor">|</span>
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-box glass reveal">
+          <p>
+            I am currently pursuing <strong>B.Tech in Computer Science Engineering</strong>
+            at <strong>G H Raisoni International Skill Tech University</strong>, with an
+            expected graduation year of <strong>2028</strong>.
+          </p>
+          <p>
+            I am passionate about web development and enjoy creating responsive,
+            modern, and intuitive digital experiences. I continuously explore new
+            technologies to sharpen my skills and build impactful projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li><span>HTML</span><div class="bar"><div style="width: 95%"></div></div></li>
+              <li><span>CSS</span><div class="bar"><div style="width: 90%"></div></div></li>
+              <li><span>JavaScript</span><div class="bar"><div style="width: 82%"></div></div></li>
+              <li><span>Web Development</span><div class="bar"><div style="width: 88%"></div></div></li>
+            </ul>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li><span>Problem Solving</span><div class="bar"><div style="width: 92%"></div></div></li>
+              <li><span>Teamwork</span><div class="bar"><div style="width: 90%"></div></div></li>
+              <li><span>Adaptability</span><div class="bar"><div style="width: 87%"></div></div></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio showcasing skills, projects, and contact details with modern UI.</p>
+            <a href="#" class="btn btn-small">View Project</a>
+          </article>
+          <article class="project-card glass reveal">
+            <h3>Task Manager App</h3>
+            <p>A responsive task management web app with local storage and intuitive interactions.</p>
+            <a href="#" class="btn btn-small">GitHub</a>
+          </article>
+          <article class="project-card glass reveal">
+            <h3>Weather Dashboard</h3>
+            <p>Real-time weather app using API integration and elegant card-based visual design.</p>
+            <a href="#" class="btn btn-small">View Project</a>
+          </article>
+          <article class="project-card glass reveal">
+            <h3>Landing Page UI</h3>
+            <p>High-converting landing page layout focused on smooth animations and responsiveness.</p>
+            <a href="#" class="btn btn-small">GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="section" id="social">
+      <div class="container">
+        <h2 class="section-title reveal">Social Media</h2>
+        <div class="social-wrap glass reveal">
+          <a href="https://www.linkedin.com/in/vijay-a-32a171315?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Vijay-verse" target="_blank" rel="noreferrer" aria-label="GitHub" class="github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/vijay_a_._?igsh=MTdvd2kwMWcybXRzbw==" target="_blank" rel="noreferrer" aria-label="Instagram" class="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact / Feedback</h2>
+        <form class="contact-form glass reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" />
+            <small class="error-text"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" />
+            <small class="error-text"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+            <small class="error-text"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Feedback</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Vijay Andhale. All rights reserved.</p>
+    <p>Designed with passion.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
