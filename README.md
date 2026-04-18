@@ -8,7 +8,7 @@ This project is a complete redesign of my professional digital showcase. It feat
 
 ## ✨ Key Features
 
-- **Technical Arsenal**: A grid-based showcase of my core competencies, including React, Node.js, Python, and modern UI design tools like Figma and Tailwind CSS.
+- **Technical Arsenal**: A grid-based showcase of my core competencies, including React, Tailwind CSS, and Git/GitHub.
 - **Selected Works**: An immersive gallery of my latest projects with interactive overlays and high-quality mockups.
 - **Modern Design System**: Built with a custom vanilla CSS design system, avoiding heavy frameworks to ensure maximum performance and accessibility.
 - **Responsive & Accessible**: Fully optimized for all screen sizes, from mobile devices to large desktop monitors.
